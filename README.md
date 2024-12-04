@@ -1,1 +1,2 @@
-Maosheng Yang's personal website. Template from [Jon Barron](https://jonbarron.info/).
+Welcome to Maosheng's Personal Website.
+Style referenced from http://hexianghu.com/.
