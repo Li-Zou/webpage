@@ -725,9 +725,9 @@ pre>code {
         height: 202px; */
         border-radius: 25px;
         width: 90%; /* Responsive width: 90% of the viewport width */
-        max-width: 450px; /* Optional: restrict the maximum width */
+        max-width: 400px; /* Optional: restrict the maximum width */
         height: auto; /* Adjust height to maintain aspect ratio */
-        aspect-ratio: 450 / 450; /* Maintain aspect ratio (450px:202px) */
+        aspect-ratio: 400 / 400; /* Maintain aspect ratio (450px:202px) */
         margin-left: auto;
         margin-right: auto
     }
