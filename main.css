@@ -757,15 +757,12 @@ pre>code {
 }
 
 .profile-col-2 {
-    /* width: -webkit-calc(60% - (30px / 2));
+    width: -webkit-calc(60% - (30px / 2));
     width: calc(60% - (30px / 2));
-    text-align: center; */
-    width: -webkit-calc(40% - (30px / 2));
-    width: calc(40% - (30px / 2));
     text-align: center;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 450px) {
 
     .profile-col-1,
     .profile-col-2 {
