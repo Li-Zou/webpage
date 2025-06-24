@@ -1613,7 +1613,7 @@ div.paginate-container li:nth-last-child(2) a:after {
     /* radius: 15px; */
     /* float: left !important; */
     margin-top: 5px;
-    margin-bottom: 15px;
+    margin-bottom: 25px;
     /* padding-top: 15px; */
     overflow: auto
 }
