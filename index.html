@@ -101,13 +101,13 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
   <div class="trigger">
     <a class="page-link" href="#bio"><b>Bio</b></a>
-    <a class="page-link" href="#publications"><b>Publications</b></a>
+    <a class="page-link" href="#publications"><b>Research</b></a>
     <!-- <a class="page-link" href="#awards"><b>Honors & Awards</b></a> -->
     <!-- <a class="page-link" href="#timeline"><b>Experiences</b></a> -->
     <a class="page-link" href="#talks"><b>Talks </b></a>
-    <!-- <a class="page-link" href="#teaching"><b>Teaching </b></a>
-    <a class="page-link" href="#academicservices"><b>Academic Services </b></a>
-    <a class="page-link" href="#misc"><b>Misc</b></a> -->
+    <!-- <!-- <a class="page-link" href="#teaching"><b>Teaching </b></a> -->
+    <!-- <a class="page-link" href="#academicservices"><b>Academic Services </b></a> -->
+    <a class="page-link" href="#teaching"><b>Misc</b></a>
     <!--<a class="page-link" href="#otherprojects">Projects</a>-->
     <!-- Button for Posts -->
   </div>
@@ -247,12 +247,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <i class="fa fa-file" aria-hidden="true"></i>
     Research
   </h1>
-    
 
   <div class="pub-list">
    <p>See a full list on my <a href="https://scholar.google.com/citations?user=-ka_yNQAAAAJ&hl=en">google scholar</a>. Below are some selected research projects.</p> 
-
-	<b>Machine Learning:</b><br>
 
   <div class="pub">
     <div class="title">
@@ -279,44 +276,69 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <li>We consider the generative applications in biological data such as brain signals and single-cell data, as well as seismic signals and ocean currents.</li>
     </font>
     </div>
-    
-</div>
+    <div class="figcaption">Demo 1: Transporting rotational ocean currents to rotational-free ones.</div>
+        <div style="text-align: center;">
+          <img src="./images/research/tsbm/ocean_0.jpg" style="width:20vw; max-width:19%; height:auto;" >
+          <img src="./images/research/tsbm/ocean_4.jpg" style="width:20vw; max-width:19%; height:auto;" >
+          <img src="./images/research/tsbm/ocean_7.jpg" style="width:20vw; max-width:19%; height:auto;" >
+          <img src="./images/research/tsbm/ocean_8.jpg" style="width:20vw; max-width:19%; height:auto;" >
+          <img src="./images/research/tsbm/ocean_9.jpg" style="width:20vw; max-width:19%; height:auto;" >
+    </div>
+    <div class="figcaption">Demo 2: Bridging active and resting brain fMRI signals.</div>
+        <div style="text-align: center;">
+          <img src="./images/research/tsbm/brain_demo-1.jpg" style="width:100vw; max-width:95%; height:auto;" >
+    </div>
+    <div class="figcaption">Demo 3: Trajectory inference of single-cell data. From left to right: groundtruth, predicted-tsb, and predicted-sb.</div>
+        <div style="text-align: center;">
+          <img src="./images/research/tsbm/phate_plot_new.png" style="width:20vw; max-width:25%; height:auto;" >
+          <img src="./images/research/tsbm/tsb_2_new.png" style="width:20vw; max-width:25%; height:auto;" >
+          <img src="./images/research/tsbm/sb_new.png" style="width:20vw; max-width:25%; height:auto;" >
+    </div>
+  </div>
+
 
 	<div class="pub">
-        <div class="title">
-          Hodge-compositional Edge Gaussian Processes   
-	      </div>
-        <div class="authors">
-          <font style="font-size: 10pt;">
-            <strong>Maosheng Yang</strong>,
-            <a href="https://vab.im/">Viacheslav Borovitskiy</a>,
-            <a href="https://sites.google.com/site/elvinisufihp/home">Elvin Isufi</a>
+    <div class="title">
+      Hodge-compositional Edge Gaussian Processes   
+    </div>
+    <div class="authors">
+      <font style="font-size: 10pt;">
+        <strong>Maosheng Yang</strong>,
+        <a href="https://vab.im/">Viacheslav Borovitskiy</a>,
+        <a href="https://sites.google.com/site/elvinisufihp/home">Elvin Isufi</a>
+    </div>
+    <div class="publish">
+      <span class="publisher">AISTATS, 2024</span>
+        <div class="tags">
+          [<a class="tag" href="https://proceedings.mlr.press/v238/yang24e/yang24e.pdf">paper</a>]
+          [<a class="tag" href="https://github.com/cookbook-ms/Hodge-Edge-GP">code</a>]
+          [<a class="tag" href="files/07-03-edgeGP-deepk/index.html">slides</a>]
+        </font>
         </div>
-        <div class="publish">
-          <span class="publisher">AISTATS, 2024</span>
-            <div class="tags">
-              [<a class="tag" href="https://proceedings.mlr.press/v238/yang24e/yang24e.pdf">paper</a>]
-              [<a class="tag" href="https://github.com/cookbook-ms/Hodge-Edge-GP">code</a>]
-              [<a class="tag" href="files/07-03-edgeGP-deepk/index.html">slides</a>]
-            </font>
-            </div>
-        </div>
-        <div class="desc">
-          <font style="font-size: 10pt;">
-          <li>Built principled diffusion and Matérn Gaussian processes on simplicial complexes based on combinatorial Hodge theory, based on stochastic differential equations on the edge space. For example, see the diffusion process on nodes and edges starting from one node or edge as follows.</li> 
-          <img src="./images/research/gp/heat_node.gif" style="width:20vw; max-width:20%; height:auto;">
-          <img src="./images/research/gp/heat_edge.gif" style="width:20vw; max-width:20%; height:auto;">
-          <li>This allows for <u>statistical modeling of edge flows with various properties like being divergence-free or curl-free</u>.</li> 
-          <li>Consider checking out the <a class='tag' href="https://geometric-kernels.github.io/">Geometric Kernels library</a> where our work will be integrated soon.</li> 
-          <li>Applications in: arbitrary-free forex interpolation, ocean current modeling, and state estimation in water networks.</li>
-         </font>
-        </div>
-        <div class="figcaption">Demo: Modeling the solenodial and irrotational ocean current velocity field.</div>
-        <div>
-          <img src="./images/research/gp/posterior_vector_field.jpg" style="width:23vw; max-width:30%; height:auto;" alt="Posterior Vector Field">
-          <img src="./images/research/gp/grad_vector_field-1.jpg" style="width:23vw; max-width:30%; height:auto;" alt="Gradient Vector Field">
-          <img src="./images/research/gp/curl_vector_field-1.jpg" style="width:23vw; max-width:30%; height:auto;" alt="Curl Vector Field">
-        </div>
+    </div>
+    <div class="desc">
+      <font style="font-size: 10pt;">
+      <li>Built principled diffusion and Matérn Gaussian processes on simplicial complexes based on combinatorial Hodge theory, based on stochastic differential equations on the edge space. For example, see the diffusion process on nodes and edges starting from one node or edge as follows.</li> 
+      <div style="text-align: center;">
+        <img src="./images/research/gp/heat_node.gif" style="width:20vw; max-width:20%; height:auto;">
+        <img src="./images/research/gp/heat_edge.gif" style="width:20vw; max-width:20%; height:auto;">
+      </div>
+      <li>This allows for <u>statistical modeling of edge flows with various properties like being divergence-free or curl-free</u>.</li> 
+      <li>Consider checking out the <a class='tag' href="https://geometric-kernels.github.io/">Geometric Kernels library</a> where our work will be integrated soon.</li> 
+      <li>Applications in: arbitrary-free forex interpolation, ocean current modeling, and state estimation in water networks.</li>
+      </font>
+    </div>
+    <div class="figcaption">Demo 1: Modeling the solenodial and irrotational ocean current velocity field.</div>
+    <div style="text-align: center;">
+      <img src="./images/research/gp/posterior_vector_field.jpg" style="width:23vw; max-width:30%; height:auto;" alt="Posterior Vector Field">
+      <img src="./images/research/gp/grad_vector_field-1.jpg" style="width:23vw; max-width:30%; height:auto;" alt="Gradient Vector Field">
+      <img src="./images/research/gp/curl_vector_field-1.jpg" style="width:23vw; max-width:30%; height:auto;" alt="Curl Vector Field">
+    </div>
+    <div class="figcaption">Demo 2: Interpolating arbitrage-free foreign currency exchange.</div>
+    <div style="text-align: center;">
+      <img src="./images/research/gp/exchangeable_pairs_graph-1.jpg" style="width:23vw; max-width:23%; height:auto;" >
+      <img src="./images/research/gp/pred_forex-1.jpg" style="width:25vw; max-width:25%; height:auto;">
+    </div>
 	</div>
 	  
 
@@ -330,6 +352,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <font style="font-size: 10pt;">
             <strong>Maosheng Yang</strong>,
             <a href="https://sites.google.com/site/elvinisufihp/home">Elvin Isufi</a>
+        </font>
     </div>
     <div class="publish">
         <span class="publisher">arXiv, 2023</span>
@@ -341,10 +364,14 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <li>The framework incorporates <u>theoretical analysis of locality, symmetry, spectral properties based on Hodge decomposition, and stability analysis</u>.</li>  
         <li>Applications include foreign currency exchange, triangle and tetrahedron (higher-order link) predictions, and trajectory prediction for ocean buoys.</li>  
         <li>Consider checking out the open-source module <a class='tag' href="https://github.com/pyt-team/TopoModelX">TopoModelX</a> for topological deep learning where our model is implemented.</li>
-      </font>
+        </font>
     </div>
-
+    <div class="tags">
+        [<a class="tag" href="https://arxiv.org/abs/2301.11163">paper</a>]
+        [<a class="tag" href="https://github.com/cookbook-ms/Learning_on_SCs">code</a>]
+    </div>
   </div>
+  
 
   <div class="pub">
     <div class="title">
@@ -372,10 +399,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         [<a class="tag" href="https://github.com/cookbook-ms/Learning_on_SCs">code</a>]
       </font>
     </div>
-</div>
+  </div>
 
-
-<b>Signal Processing:</b><br>
 
   <div class="pub">
     <div class="title">
